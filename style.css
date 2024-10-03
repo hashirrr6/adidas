@@ -152,10 +152,12 @@ ul{
     
     
 }
-.model{
+.model{display: flex;
+    justify-content: space-between;
+
     height: 75px;
     /* justify-content: center; */
-    /* padding-top: 20px; */
+    padding-top: 20px;
 }
 .models{
     
@@ -180,3 +182,63 @@ ul{
 font-family: Georgia, 'Times New Roman', Times, serif;
 border: 1px solid var(black);
 padding: 10px;}
+
+.shopnow{ 
+    
+    padding-right: 30px;
+
+}
+
+.shoerack{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    padding: 0px 40px;
+    gap: 10px;
+}
+
+.shoerack .item1{
+    background-image: url("img/GAZELLE_BOLD_SHOES_Blue_IE0430_01_standard.jpg");
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+    
+}
+.shoerack .item2{
+    background-image: url("img/OZWEEGO_Shoes_Beige_GY6177_01_standard.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item3{
+    background-image: url("img/Samba_OG_Shoes_Black_B75807_01_standard.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.shoerack .item4{
+    background-image: url("img/Samba_OG_Shoes_White_B75806_01_standard.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item5{
+    background-image: url("img/Gazelle_Indoor_Shoes_Red_IE2946_01_standard.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .rate{
+   
+    background-color: azure;
+    position: absolute;
+    padding-top: 90%;
+    padding-left: 3%;
+ 
+}
+
