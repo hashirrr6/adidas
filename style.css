@@ -1,3 +1,4 @@
+
 body,.main2{
     margin: 0px;
     padding: 0px;
@@ -173,14 +174,14 @@ ul{
 .models .t-toe{
     background-color: black;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 1px solid var(black);
+    font-family: system-ui;
+    border:  0.5px solid black;
     padding: 10px;
 
 }
 .models button{background-color: white;
-font-family: Georgia, 'Times New Roman', Times, serif;
-border: 1px solid var(black);
+    font-family: system-ui;
+border: 0.5px solid black;
 padding: 10px;}
 
 .shopnow{ 
@@ -191,12 +192,15 @@ padding: 10px;}
 
 .shoerack{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     background-color: rgb(255, 255, 255);
     height: 350px;
     padding: 0px 40px;
+    margin-bottom: 30px;
     gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .shoerack .item1{
@@ -206,8 +210,14 @@ padding: 10px;}
     position: relative;
     
 }
+.shoerack div{
+    width: 300px;
+}
+.shoerack img{
+    width: 100%;
+}
 .shoerack .item2{
-    background-image: url("img/OZWEEGO_Shoes_Beige_GY6177_01_standard.jpg");
+    background-image: url("img/Gazelle_Shoes_Black_CQ2809_01_standard\ \(1\).jpg");
     background-size: cover;
     object-fit: cover;
     position: relative;
@@ -233,12 +243,102 @@ padding: 10px;}
     position: relative;
     
 }
+.shoerack .item6{
+    background-image: url("img/3.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item7{
+    background-image: url("img/GAZELLE_BOLD_SHOES_Yellow_IF5937_01_standard.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
 .shoerack .rate{
    
     background-color: azure;
-    position: absolute;
-    padding-top: 90%;
-    padding-left: 3%;
+    position:absolute;
+    top: 300px;
+    left: 10px;
+    padding: 5px;
+    width: fit-content;
+
+    /* padding-left: 3%; */
+    /* padding-left: 80%; */
  
 }
+.shoename{
+    color: black;
+    background-color: azure;
+    position:absolute;
+    top: 500px;
+    left: 10px;
+    padding: 5px;
+    width: fit-content;
+}
 
+.shoerack .item8{
+    background-image: url("img/13.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item9{
+    background-image: url("img/9.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item10{
+    background-image: url("img/8.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item11{
+    background-image: url("img/11.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item12{
+    background-image: url("img/12.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item13{
+    background-image: url("img/14.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+.shoerack .item14{
+    background-image: url("img/10.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.lastgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+     /* background-color: rgb(255, 255, 255); */
+    /* height: 350px; */
+    padding: 0px 60px;
+    /* margin-bottom: 30px; */
+    gap: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+}
