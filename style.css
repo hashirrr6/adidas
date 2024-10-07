@@ -21,6 +21,10 @@ body,.main2{
 ul{
     margin: 0px;
 }
+ul a{
+    text-decoration: none;
+    color: black;
+}
 .category{
     display: flex;
 
@@ -127,6 +131,7 @@ ul{
     justify-content: last baseline;
     bottom: 15%;
     color: white;
+  margin top:10px 0px ;
    
 }
 .firstimgh2{
@@ -136,6 +141,7 @@ ul{
     justify-content: last baseline;
     bottom: 12%;
     color: white;
+    margin-top: 10px 0px;
    
 }
 .firstbutton{
@@ -153,12 +159,24 @@ ul{
     
     
 }
+.news1{
+    display: flex;
+    background-color: white;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    align-items: flex-start;
+    padding: 30px 50px;
+    word-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
 .model{display: flex;
     justify-content: space-between;
 
     height: 75px;
     /* justify-content: center; */
-    padding-top: 20px;
+    padding-top: 40px;
+ 
 }
 .models{
     
@@ -190,23 +208,38 @@ padding: 10px;}
 
 }
 
-.shoerack{
+
+
+.sports{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-    background-color: rgb(255, 255, 255);
-    height: 350px;
-    padding: 25px 40px;
+     /* background-color: rgb(255, 255, 255); */
+    /* height: 350px; */
+    padding: 0px 60px;
     /* margin-bottom: 30px; */
     gap: 10px;
+    /* padding-bottom: 5px; */
     overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-y: hidden; 
 }
+.sports div{
+    width: 300px;
+}
+.sports img{
+    width: 100%;}
 
+.shoerack{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr 1fr;
+    padding: 0px 60px;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    position: relative;
+}
 .shoerack .item1{
-    background-image: url("img/GAZELLE_BOLD_SHOES_Blue_IE0430_01_standard.jpg");
-    background-size: cover;
-    object-fit: contain;
+
     position: relative;
     
 }
@@ -217,54 +250,46 @@ padding: 10px;}
     width: 100%;
 }
 .shoerack .item2{
-    background-image: url("img/Gazelle_Shoes_Black_CQ2809_01_standard\ \(1\).jpg");
-    background-size: cover;
-    object-fit: cover;
+     
     position: relative;
     
 }
 .shoerack .item3{
-    background-image: url("img/Samba_OG_Shoes_Black_B75807_01_standard.jpg");
-    background-size: cover;
-    object-fit: cover;
+    
     position: relative;
 }
 .shoerack .item4{
-    background-image: url("img/Samba_OG_Shoes_White_B75806_01_standard.jpg");
-    background-size: cover;
-    object-fit: cover;
     position: relative;
     
 }
 .shoerack .item5{
-    background-image: url("img/Gazelle_Indoor_Shoes_Red_IE2946_01_standard.jpg");
-    background-size: cover;
-    object-fit: cover;
     position: relative;
     
 }
 .shoerack .item6{
-    background-image: url("img/3.jpg");
-    background-size: cover;
-    object-fit: cover;
     position: relative;
     
 }
 .shoerack .item7{
-    background-image: url("img/GAZELLE_BOLD_SHOES_Yellow_IF5937_01_standard.jpg");
-    background-size: cover;
-    object-fit: cover;
     position: relative;
     
+}
+.rate{
+    position: absolute;
 }
 .shoerack .rate{
    
     background-color: azure;
+    color: black;
     position:absolute;
-    top: 300px;
-    left: 10px;
-    padding: 5px;
+    top: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* left: 10px; */
+    padding: 5px ;
+    margin-left: 0px;
     width: fit-content;
+    height: fit-content;
+    
 
     /* padding-left: 3%; */
     /* padding-left: 80%; */
@@ -278,6 +303,9 @@ padding: 10px;}
     left: 10px;
     padding: 5px;
     width: fit-content;
+}
+.shoerack p{
+    color: rgb(167, 184, 179);
 }
 
 .shoerack .item8{
@@ -328,6 +356,26 @@ padding: 10px;}
     object-fit: cover;
     position: relative;
     
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0px 60px;
+    gap: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+}
+.team div{width: 300px;}
+.team img{width: 100%;}
+.team video{width: 100%;}
+.mode{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     padding: 50px;    
+     height: 100px;
+     
+
 }
 
 .lastgrid{
