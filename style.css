@@ -10,7 +10,6 @@ body,.main2{
     text-align: center;
     padding: 15px 0px;
     margin: 0px;
-    width: 100%;
     
 }
 .nav1 span{
@@ -378,20 +377,16 @@ padding: 10px;}
      /* height: 250px; */
      font-size: 20px;
      text-decoration: underline;
-     width: 100%;
 }
 
 .hot{
-display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-left: 30px;
-    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow-y: hidden;
     gap: 20px;
     overflow-x: scroll;
     padding-left: 30px;
     padding-bottom: 20px;
-    width: 100%;
 }
 .hot div{
     width: 300px;
@@ -524,4 +519,3 @@ padding: 30px;
 .terms li{list-style: none;
 display: inline;
 }
-
