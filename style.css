@@ -10,6 +10,7 @@ body,.main2{
     text-align: center;
     padding: 15px 0px;
     margin: 0px;
+    width: 100%;
     
 }
 .nav1 span{
@@ -371,13 +372,71 @@ padding: 10px;}
 .mode{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 1fr 1fr 1fr;
-     padding: 50px;    
-     height: 100px;
-     
-
+     /* grid-template-rows: 1fr 1fr 1fr; */
+     gap: 30px;
+     /* padding: 50px;     */
+     /* height: 250px; */
+     font-size: 20px;
+     text-decoration: underline;
+     width: 100%;
 }
 
+.hot{
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    overflow-y: hidden;
+    gap: 20px;
+    overflow-x: scroll;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.hot div{
+    width: 300px;
+    
+   
+}
+.hot video{
+    width: 100%;
+}
+.hot img{
+    width: 100%;
+}
+.adi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.adi div{
+   width: 300px;
+
+}
+.adi img{
+    width: 100%;
+}
+/* .lastpp{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+    text-align: center;
+   
+} */
+.lass{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+}
 .lastgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  1fr 1fr;
@@ -442,6 +501,9 @@ padding: 10px;}
     
     /* height: 30px; */
 }
+.lastfoot ul{
+    padding-inline-start: 0px;
+}
 .lastfoot{
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -462,3 +524,4 @@ padding: 30px;
 .terms li{list-style: none;
 display: inline;
 }
+
